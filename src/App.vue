@@ -1,15 +1,23 @@
 <template>
-  <div>teste </div>
+  <div id="app">
+    <Pokemon />
+  </div>
 </template>
 
 <script>
+import Pokemon from './components/PokemonHome.vue'
 
 export default {
-  name: 'App',
   components: {
+    Pokemon
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
 </style>
